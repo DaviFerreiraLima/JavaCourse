@@ -19,5 +19,10 @@ public class BooleanComparisons {
             System.out.println("You cant retire");
             System.out.println(myAge>retiredAge);
         }
+
+        String hello1="olá";
+        String hello2="olá";
+
+        System.out.println(hello1.equals(hello2));
     }
 }
