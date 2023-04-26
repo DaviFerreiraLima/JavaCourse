@@ -1,15 +1,11 @@
 public class ReturnValues {
     public static void main(String[] args) {
-            double area1 = calculateArea(2,2);
-            double area2 = calculateArea(2,3);
-            double area3 = calculateArea(4,5);
+            double area1 = calculateArea(3,2);
 
-           // calculateArea(-5,3);
+            printArea(3,2,area1);
 
             String englishExplanation = explainArea("English");
-            String spanishExplanation = explainArea("Spanish");
-            String italianExplanation = explainArea("Italian");
-            String frenchExplanation = explainArea("Frenche");
+
         }
     public  static double calculateArea(double length, double width) {
         if (length < 0 || width <0) {
@@ -30,6 +26,9 @@ public class ReturnValues {
                     default: return "Language not available";
                 }
 
+         }
+         public static  void printArea(double length, double width, double area){
+             System.out.println(" A rectangle with a length of "+length + " and a width of "+width +" has an area "+ area);
          }
     }
 
