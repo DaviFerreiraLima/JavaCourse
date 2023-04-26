@@ -30,7 +30,7 @@ public class DocComments {
      * Function name : CalculateArea
      * @param length (double)
      * @param width  (double)
-     * @return       (double)hn
+     * @return       (double)
      *
      * Inside the function:
      *  1. calculates the area and returns it.
